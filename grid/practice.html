@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid1</title>
+    <style>
+        .wrapper>div{
+            background:#eee;
+            padding:1em;
+
+        }
+        .wrapper>div:nth-child(odd){
+            background:#ddd;
+        }
+        .wrapper{
+            display:grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap: 10px;
+            grid-row-gap: 10px; */
+            grid-gap: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam cupiditate veniam cum in expedita cumque nemo quisquam, culpa aliquam quis blanditiis sequi sapiente asperiores, temporibus laborum optio eius autem a. Architecto aliquam tempore sint tempora cumque sunt recusandae quis! Ab vero mollitia distinctio totam, consectetur fuga culpa nostrum neque nobis? Iure iste similique maxime exercitationem. Voluptatem, nihil hic facilis incidunt ad maiores sed quos, consequatur reprehenderit autem aperiam soluta eos quidem expedita animi sapiente quo id officiis cupiditate qui. Natus?
+        
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est alias quae vel architecto, corporis voluptate molestias qui labore modi sequi nam, ab minima harum quisquam, illum molestiae. Quidem, quam dolores.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam cupiditate veniam cum in expedita cumque nemo quisquam, culpa aliquam quis blanditiis sequi sapiente asperiores, temporibus laborum optio eius autem a. Architecto aliquam tempore sint tempora cumque sunt recusandae quis! Ab vero mollitia distinctio totam, consectetur fuga culpa nostrum neque nobis? Iure iste similique maxime exercitationem. Voluptatem, nihil hic facilis incidunt ad maiores sed quos, consequatur reprehenderit autem aperiam soluta eos quidem expedita animi sapiente quo id officiis cupiditate qui. Natus?
+        
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est alias quae vel architecto, corporis voluptate molestias qui labore modi sequi nam, ab minima harum quisquam, illum molestiae. Quidem, quam dolores.
+        </div>
+        
+    </div>
+</body>
+</html>
